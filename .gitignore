@@ -1,0 +1,26 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Vector database storage
+qdrant_storage/
+
+# Documentation PDFs
+docs/
+
+# IDE
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
