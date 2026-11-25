@@ -24,3 +24,5 @@ docs/
 # OS files
 .DS_Store
 Thumbs.db
+summaries.json
+manifest.json
