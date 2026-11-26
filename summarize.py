@@ -47,7 +47,7 @@ for pdf in sorted(DOCS_DIR.glob("*.pdf")):
         done[pdf.name] = True
         MANIFEST.write_text(json.dumps(done))
         print("summarized:", pdf.name)
-        time.sleep(6)   # stay under free-tier token limits
+        time.sleep(6)   
     except Exception as e:
         print("FAILED:", pdf.name, e)
         time.sleep(20)
